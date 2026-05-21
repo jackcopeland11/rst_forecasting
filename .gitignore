@@ -1,0 +1,27 @@
+# Secrets - NEVER commit
+app/.streamlit/secrets.toml
+*.env
+.env
+.env.*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Outputs that shouldn't be source-controlled
+outputs/*.xlsx
